@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    font-family: 'Ubuntu';
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e3ecc2;
+    box-sizing: border-box;
+}
+header{
+    background-image:url('Images/header.png') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1055px;
+    position: relative;
+}
+.nav{
+    width: 100%;
+}
+.logo{
+    width: 30%;
+    padding: 60px 100px;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.menu{
+    width: 70%;
+    margin-top: 70px;
+    margin-bottom: 0;
+    float: right;
+}
+.menu ul{
+    list-style: none;
+    margin-left: 350px;
+}
+.menu li{
+    display: inline;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-left: 50px;
+}
+.content h1{
+    text-align: center;
+    font-size: 100px;
+    font-weight: 700;
+    color: white;
+    margin-top: 50px;
+}
+.content p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.v3-dot{
+    position: absolute;
+    top: 40%;
+    right: 20px;
+}
+.h4-dot{
+    position: absolute;
+    left: 12%;
+    bottom: 14%;
+}
+.popular h2{
+    color: #7287ae;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    top: 950px;
+    left: 500px;
+}
+.popular h3{
+    color: #5c5b5b;
+    font-size: 35px;
+    margin: 10px;
+}
+.popular p{
+    color: #5c5b5b;
+    font-size: 20px;
+    margin: 10px;
+}
+.button-1{
+    background-color: #7287ae;
+    border-radius: 50px;
+    margin-left: 540px;
+    padding: 15px 30px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+.button-1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 30px 50px;
+}
+.h-dot{
+    position: absolute;
+    top: 1650px;
+    left: 1180px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.first-row, .second-row{
+    width: 100%;
+    clear: both;
+}
+.one{
+    width: 50%;
+    height: 780px;
+    display: inline;
+    float: left;
+}
+.one img{
+    width: 100%;
+    height: 100%;
+}
+.two{
+    width: 50%;
+    height: 780px;
+    background-color: white;
+    float: right;
+    display: inline;
+}
+.two h2, .three h2{
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: 40px;
+    margin-top: 150px;
+}
+.two p, .three p{
+    font-size: 22px;
+    margin-left: 40px;
+}
+.three{
+    width: 50%;
+    height: 780px;
+    background-color: white;
+    float: left;
+    display: inline-block;
+}
+.four{
+    width: 50%;
+    display: inline-block;
+    float: right;
+}
+.one img{
+    width: 100%;
+    height: 100%;
+}
+.button-2{
+    background-color: #7287ae;
+    border-radius: 50px;
+    margin-left: 40px;
+    padding: 15px 30px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+.button-2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 30px 50px;
+}
+.h45-dot{
+    position: absolute;
+    top: 2585px;
+    left: 300px;
+}
+.order{
+    background-color: #7287ae;
+    width: 100%;
+}
+.order h2{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    font-size: 50px;
+    padding: 100px;
+}
+.round-card{
+    width: 33%;
+}
+.round-card h3{
+    color: #7287ae;
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: 700;
+}
+.round-card h4{
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    margin: 30px;
+}
+.round-card p{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+.img-box{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    margin-left: 160px;
+}
+.dot4-5{
+    position: absolute;
+    top: 3365px;
+    right: 110px;
+}
+.delivery{
+    background-image: url('Images/delivery-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 684px;
+}
+.delivery h1{
+    font-weight: 700;
+    color: #7287ae;
+    text-align: center;
+    font-size: 70px;
+    padding-top: 120px;
+}
+.delivery p{
+    color: #7287ae;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 30px;
+}
+.button-3{
+    background-color: #7287ae;
+    border: none;
+    border-radius: 50px;
+    margin-left: 470px;
+    padding: 20px 50px;
+    margin-top: 80px;
+}
+.button-3 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    padding: 30px 50px;
+    font-size: 30px;
+}
+.h-4-5-dot{
+    position: absolute;
+    top: 4740px;
+    right: 50px;
+}
+.subscribe{
+    background-color: #e3ecc2;
+    height: 380px;
+}
+.subscribe h1{
+    color: #7287ae;
+    font-size: 130px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 100px;
+}
+.subscribe p{
+    color: #7287ae;
+    text-align: center;
+    font-size: 35px;
+}
+.subscribe h2{
+    color: #7287ae;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+.subscribe ul{
+    text-align: center;
+    list-style: none;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.subscribe li{
+    display: inline;
+    font-size: 50px;
+}
+.subscribe a{
+    color: #7287ae;
+    padding: 20px;
+}
+.h4-5-dot{
+    position: absolute;
+    top: 5430px;
+    left: 230px;
+}
+.foot{
+    background-image: url('Images/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 716px;
+}
+.f-content h5{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 130px;
+    margin-top: 430px;
+}
+.f-content p{
+    color: white;
+    margin-left: 130px;
+    margin-top: 45px;
+    font-size: 20px;
+}
+.f-content h6{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 430px;
+    margin-left: 25px;
+}
+.f-content ul{
+    list-style: none;
+    margin-top: 50px;
+}
+.f-content ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.f-content ul li a:hover{
+    color: aqua;
+}
